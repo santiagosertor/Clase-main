@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.keep-note, .spotify-song, .instagram-post, .product-card {
+    background-color: rgb(3, 199, 248);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 300px;
+    text-align: center;
+}
+
+/* Google Keep Note Styles */
+.keep-note ul {
+    padding-left: 0;
+    text-align: left;
+}
+
+.keep-note li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.product-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.note-footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.note-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.note-options button {
+    background-color: #fbbc04;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.note-options button:hover {
+    width: 90px;
+    padding: 10px;
+    border: none;
+     border-radius:5px ;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: solid 1px blue;
+}
+
+/* Spotify Song Styles */
+.album-cover {
+    border-radius: 8px;
+    width: 30%;
+    height: auto;
+}
+
+.playlist ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.playlist li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.song-cover {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Instagram Post Styles */
+.instagram-post {
+    text-align: left;
+}
+.post-img{
+    width: 30%;
+}
+
+.post-caption h3 {
+    margin: 10px 0 5px 0;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #000000;
+}
+
+.friend-list ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.friend-list li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.friend-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Amazon Product Card Styles */
+.product-card {
+    margin-bottom: 20px;
+}
+
+.product-img {
+    border-radius: 8px;
+    width: 30%;
+    height: auto;
+
+}
+
+button {
+    background-color: #ff3300;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    border-radius:5px;
+   background-color: rgb(13, 0, 128);
+   border: solid 1px blue;
+}
