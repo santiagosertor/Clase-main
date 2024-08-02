@@ -1,0 +1,17 @@
+:root{
+    --card-color1: red;
+    --card-color2: yellow;
+    --card-color3: blue;
+    --card-color4:#000;
+    --card-color5:white;
+    --card-color6:rgb(0, 159, 252);
+    --card-color7:green;
+    --card-color8:rgb(255, 123, 0);
+    --border-radius:solid 1px var(--color3);
+    --box-shadow: 0 8px 9px var(--color3);
+    --transition1:2s;
+    --display:list-item;
+    --text-aling:center;
+    --margin-top: 5px;
+
+}
